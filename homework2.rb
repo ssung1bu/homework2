@@ -9,18 +9,19 @@ class Homework
   end
 
   def calendar(holidays, dates)
-    puts 
-
+    puts holiday_hash = { holidays => dates }
   end
+
 end
 
 a = Homework.new
 b = Homework.new
 c = Homework.new
 
-holidays = ["christmas", "easter", "thanksgiving"]
-dates = ["Dec 25", "Apr 1", "Nov 26"]
-
 a.shout("hello")
 b.repeat_string("hi", 4)
-c.calendar
+c.calendar("christmas", "Dec 25")
+
+#1. What is an "instance variable"? See if you can find and explanation using google.
+
+#2. Use online ruby documentation (ruby-doc.org) to describe a method of the Integer class.
